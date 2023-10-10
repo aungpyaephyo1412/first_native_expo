@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import {Image, StyleSheet, Text, TextInput, TouchableOpacity, View} from "react-native";
-
 const LoginScreen = ({navigation}) => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const login =async () => {
+
+    }
     return (
         <View  style={styles.container}>
             <View style={styles.logoContainer}>
